@@ -14,9 +14,9 @@ export class AppComponent implements OnInit {
     var map = new Map({
       target : "map",
       layers : [
-        /*new olExtended.layer.GeoportalWMTS({
+        new olExtended.layer.GeoportalWMTS({
           layer : "GEOGRAPHICALGRIDSYSTEMS.MAPS"
-        })*/
+        })
       ],
       view : new View({
         center : [288074.8449901076, 6247982.515792289],
